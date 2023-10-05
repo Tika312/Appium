@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Eden Hazard",
+    "email": "Eden@gmail.com",
+    "currentAddress": "Dubai",
+    "permanentAddress": "Doha,Qatar"
+  },
+  {
+    "name": "Didier Drogba",
+    "email": "Drogba@gmail.com",
+    "currentAddress": "london UK",
+    "permanentAddress": "Paris, France"
+  }
+
+]
