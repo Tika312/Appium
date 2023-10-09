@@ -1,6 +1,10 @@
 package digitalnomads;
 
 public class Test {
+    public static void main(String[] args) throws Throwable {
+
+//        throw new Exception("dassadsad");
+    }
 
 
     public static String formattedString(String text){

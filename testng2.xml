@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="testng.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/tilek/IdeaProjects/Appium/src/test/java/testng/Day1.java"/>
+
+    <parameter name="URL" value="www.google.ru"/>
+    <parameter name="UserName" value="Tilek"/>
+    <test name="Test with parameters">
+        <packages>
+            <package name="testng"/> <!-- will run as per package, only those tests in testng package will run-->
+        </packages>
+    </test>
+</suite>

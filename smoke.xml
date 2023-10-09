@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+    <test verbose="2" preserve-order="true" name="C:/Users/tilek/IdeaProjects/Appium/src/test/java/testng/Day1.java"/>
+
+    <test name="Smoke Test" parallel="classes" thread-count="3">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="testng"/>
+        </packages>
+    </test>
+</suite>
